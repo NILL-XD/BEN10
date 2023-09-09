@@ -36,7 +36,8 @@ def Setup():
 	except ValueError:exit()
 try:import httpx
 except:exit(' Found error in http module! ')
-xx=requests.get('https://raw.githubusercontent.com/AKING110/files/main/ua.txt').text.splitlines()
+#xx=requests.get('https://raw.githubusercontent.com/AKING110/files/main/ua.txt').text.splitlines()
+xx=requests.get('https://raw.githubusercontent.com/NILL-XD/UAX/main/UAX.txt').text.splitlines()
 def clear():
 	os.system('clear')
 	print(logo)
